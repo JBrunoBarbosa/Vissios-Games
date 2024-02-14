@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="VissiosGames">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VissiosGames</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget { background-color: #D7D7D7; color: #fff; }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuGames">
+    <property name="title">
+     <string>Jogos</string>
+    </property>
+    <addaction name="navigateToUsers"/>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuGames"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="navigateToUsers">
+   <property name="text">
+    <string>Adicionar Jogos</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
