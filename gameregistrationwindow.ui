@@ -282,7 +282,7 @@
         <item>
          <widget class="QPushButton" name="buttonSubmit">
           <property name="text">
-           <string>                               Cadastrar                          </string>
+           <string>Cadastrar </string>
           </property>
          </widget>
         </item>
