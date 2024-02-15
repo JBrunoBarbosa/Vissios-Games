@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
- <widget class="QMainWindow" name="VissiosGames">
+ <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -35,15 +35,21 @@
     <property name="title">
      <string>Jogos</string>
     </property>
-    <addaction name="navigateToUsers"/>
+    <addaction name="navigateToGames"/>
+    <addaction name="navigateToManageGames"/>
    </widget>
    <addaction name="menuHome"/>
    <addaction name="menuGames"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="navigateToUsers">
+  <action name="navigateToGames">
    <property name="text">
     <string>Adicionar Jogos</string>
+   </property>
+  </action>
+  <action name="navigateToManageGames">
+   <property name="text">
+    <string>Gerenciar Jogos</string>
    </property>
   </action>
  </widget>

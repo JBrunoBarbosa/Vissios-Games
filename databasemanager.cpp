@@ -117,3 +117,15 @@ QVector<QVariantMap> DatabaseManager::executeSelectQuery(const QString& query, c
 
     return results;
 }
+
+bool DatabaseManager::deleteTable(const QString& tableName) {
+    QString query = QString("DROP TABLE IF EXISTS %1").arg(tableName);
+    QSqlQuery sqlQuery;
+
+    if (!sqlQuery.exec(query)) {
+        qDebug() << "Erro ao deletar tabela:" << sqlQuery.lastError().text();
+        return false;
+    }
+
+    return true;
+}

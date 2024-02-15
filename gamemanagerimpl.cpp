@@ -3,7 +3,7 @@
 #include "game.h"
 
 GameManagerImpl::GameManagerImpl() : dbManager("vissios_games.sqlite") {
-    QString productTableQuery = "id INT, name TEXT, playersQuantity INT, genre TEXT, minAge INT, supplier TEXT";
+    QString productTableQuery = "id INTEGER PRIMARY KEY, name TEXT, playersQuantity INTEGER, genre TEXT, minAge INTEGER, supplier TEXT";
     dbManager.createTable("Games", productTableQuery);
 }
 
@@ -21,7 +21,7 @@ bool GameManagerImpl::saveGame(const Game& game) {
 bool GameManagerImpl::removeGame(int gameId) {
     QString query = QString("DELETE FROM Games WHERE id = :id");
     QVariantMap placeholders;
-    placeholders[":id"] = gameId;
+    placeholders["id"] = gameId;
     return dbManager.executeQuery(query, placeholders);
 }
 

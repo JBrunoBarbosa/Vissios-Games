@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     databasemanager.cpp \
     gameimpl.cpp \
+    gamemanagementwindow.cpp \
     gamemanagerimpl.cpp \
     gameregistrationwindow.cpp \
     main.cpp \
@@ -20,12 +21,14 @@ HEADERS += \
     databasemanager.h \
     game.h \
     gameimpl.h \
+    gamemanagementwindow.h \
     gamemanager.h \
     gamemanagerimpl.h \
     gameregistrationwindow.h \
     mainwindow.h
 
 FORMS += \
+    gamemanagementwindow.ui \
     gameregistrationwindow.ui \
     mainwindow.ui
 

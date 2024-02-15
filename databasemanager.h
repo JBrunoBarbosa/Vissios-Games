@@ -55,6 +55,8 @@ public:
      */
     QVector<QVariantMap> selectAllRecords(const QString& tableName);
 
+    bool deleteTable(const QString& tableName);
+
     /**
      * @brief Seleciona registros de uma tabela com base em uma condição.
      * @param tableName O nome da tabela a ser consultada.

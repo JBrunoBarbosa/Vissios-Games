@@ -1,13 +1,16 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
 #include "gameregistrationwindow.h"
+#include "gamemanagementwindow.h"
+#include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
     ui(new Ui::MainWindow),
     currentWidget(nullptr) {
     ui->setupUi(this);
-    connect(ui->navigateToUsers, &QAction::triggered, this, [this]() { openWidget(new GameRegistrationWindow(this)); });
+    connect(ui->navigateToGames, &QAction::triggered, this, [this]() { openWidget(new GameRegistrationWindow(this)); });
+    connect(ui->navigateToManageGames, &QAction::triggered, this, [this]() { openWidget(new GameManagementWindow(this)); });
+
 }
 
 MainWindow::~MainWindow() {

@@ -35,6 +35,6 @@ void GameRegistrationWindow::onSaveButtonClicked()
     if(gameManager.saveGame(game)) {
         qDebug() << "O jogo foi salvo com sucesso.";
     } else {
-        qDebug() << "Falha ao salvar o jogo.";
+         qDebug() << "Falha ao salvar o jogo.";
     }
 }
