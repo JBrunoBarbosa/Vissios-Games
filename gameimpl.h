@@ -15,7 +15,7 @@ private:
 
 public:
     // Constructor
-    GameImpl(int id, std::string name, int playerAmount, std::string genre, int minAge, std::string supplier);
+    GameImpl(int id = 0, std::string name = "", int playerAmount = 0, std::string genre = "", int minAge = 0, std::string supplier = "");
 
     // Getters
     int getId() const override;

@@ -20,13 +20,13 @@
     }
     QLabel {
         color: #2D4B50;
-        font-family: "Arial Black";
+        font-family: &quot;Arial Black&quot;;
         margin: 5px;
         min-width: 300px; /* Isso pode não funcionar como esperado para QLabel no styleSheet */
     }
     QPushButton, QLineEdit, QDateEdit, QComboBox {
         color: #2D4B50;
-        font-family: "Arial Black";
+        font-family: &quot;Arial Black&quot;;
         margin: 5px;
     }
     QLineEdit, QDateEdit, QComboBox {
@@ -76,7 +76,7 @@
       <number>0</number>
      </property>
      <property name="columnCount">
-      <number>5</number>
+      <number>6</number>
      </property>
      <column>
       <property name="text">
@@ -90,17 +90,22 @@
      </column>
      <column>
       <property name="text">
-       <string>Fornecedor</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
        <string>Idade Recomendada</string>
       </property>
      </column>
      <column>
       <property name="text">
+       <string>Genero</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
        <string>Quantidade Jogadores</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Fornecedor</string>
       </property>
      </column>
     </widget>

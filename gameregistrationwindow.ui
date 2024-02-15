@@ -119,7 +119,7 @@
        <number>10</number>
       </property>
       <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="labelTitle">
         <property name="font">
          <font>
           <family>Arial Black</family>

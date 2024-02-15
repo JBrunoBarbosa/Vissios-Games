@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "gameimpl.h"
 
 namespace Ui {
     class MainWindow;
@@ -25,7 +26,9 @@ public:
      */
     ~MainWindow();
 
-private slots:
+public slots:
+    void openGameRegistrationWindow(GameImpl* game);
+
     /**
      * @brief Abre um widget na janela principal.
      * @param widget O widget a ser exibido na janela principal.
@@ -34,7 +37,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui; ///< A interface gráfica da janela principal.
-    QWidget *currentWidget; ///< O widget atualmente exibido na janela principal.
+    QWidget *currentWidget;
 };
 
 #endif

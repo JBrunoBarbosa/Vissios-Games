@@ -1,4 +1,5 @@
 #include "GameManagementWindow.h"
+#include "mainwindow.h"
 #include "ui_GameManagementWindow.h"
 #include <QMessageBox>
 
@@ -8,7 +9,6 @@ GameManagementWindow::GameManagementWindow(QWidget *parent) :
     gameManager()
 {
     ui->setupUi(this);
-    // Conecte botões (assumindo que você tenha botões nomeados adequadamente na sua UI) aos slots
     connect(ui->buttonRemoveGame, &QPushButton::clicked, this, &GameManagementWindow::onButtonRemoveGameClicked);
     connect(ui->buttonModifyGame, &QPushButton::clicked, this, &GameManagementWindow::onButtonModifyGameClicked);
 
@@ -39,6 +39,29 @@ void GameManagementWindow::loadGames()
     ui->tableWidget->resizeColumnsToContents();
 }
 
+void GameManagementWindow::onButtonModifyGameClicked()
+{
+    int row = ui->tableWidget->currentRow();
+    if (row != -1) {
+        GameImpl* gameToEdit = createGameFromRow(row);
+        MainWindow* mainWindow = qobject_cast<MainWindow*>(parentWidget());
+        mainWindow->openGameRegistrationWindow(gameToEdit);
+    } else {
+        QMessageBox::warning(this, "Seleção", "Por favor, selecione um jogo para alterar.");
+    }
+}
+
+GameImpl* GameManagementWindow::createGameFromRow(int row) {
+    int id = ui->tableWidget->item(row, 0)->text().toInt();
+    std::string name = ui->tableWidget->item(row, 1)->text().toStdString();
+    int minAge = ui->tableWidget->item(row, 2)->text().toInt();
+    std::string genre = ui->tableWidget->item(row, 3)->text().toStdString();
+    int playerAmount = ui->tableWidget->item(row, 4)->text().toInt();
+    std::string supplier = ui->tableWidget->item(row, 5)->text().toStdString();
+
+    return new GameImpl(id, name, playerAmount, genre, minAge, supplier);
+}
+
 void GameManagementWindow::onButtonRemoveGameClicked()
 {
     // Exemplo de remoção de um jogo selecionado
@@ -54,11 +77,4 @@ void GameManagementWindow::onButtonRemoveGameClicked()
     } else {
         QMessageBox::warning(this, "Seleção", "Por favor, selecione um jogo para remover.");
     }
-}
-
-void GameManagementWindow::onButtonModifyGameClicked()
-{
-    // Aqui, você precisaria abrir um diálogo ou forma similar para coletar as novas informações
-    // do jogo que deseja modificar, e então chamar gameManager.modifyGame(updatedGame);
-    // Este exemplo não inclui a implementação desse diálogo.
 }

@@ -42,14 +42,14 @@ QVector<GameImpl> GameManagerImpl::listGames() {
 
 bool GameManagerImpl::modifyGame(const Game& game) {
     QString query = QString("UPDATE Games SET name = :name, playersQuantity = :playersQuantity, "
-                            "genre = :genre, minAge = :minAge, totalAmount = :totalAmount, "
-                            "currentAmount = :currentAmount WHERE id = :id");
+                            "genre = :genre, minAge = :minAge, "
+                            "supplier = :supplier WHERE id = :id");
     QVariantMap recordData;
-    recordData[":name"] = QString::fromStdString(game.getName());
-    recordData[":playersQuantity"] = game.getPlayerAmount();
-    recordData[":genre"] = QString::fromStdString(game.getGenre());
-    recordData[":minAge"] = game.getMinAge();
-    recordData[":supplier"] = QString::fromStdString(game.getSupplier());
-    recordData[":id"] = game.getId();
+    recordData["name"] = QString::fromStdString(game.getName());
+    recordData["playersQuantity"] = game.getPlayerAmount();
+    recordData["genre"] = QString::fromStdString(game.getGenre());
+    recordData["minAge"] = game.getMinAge();
+    recordData["supplier"] = QString::fromStdString(game.getSupplier());
+    recordData["id"] = game.getId();
     return dbManager.executeQuery(query, recordData);
 }

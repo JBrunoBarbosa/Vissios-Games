@@ -6,11 +6,11 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
     ui(new Ui::MainWindow),
-    currentWidget(nullptr) {
+    currentWidget(nullptr)
+{
     ui->setupUi(this);
-    connect(ui->navigateToGames, &QAction::triggered, this, [this]() { openWidget(new GameRegistrationWindow(this)); });
+    connect(ui->navigateToGames, &QAction::triggered, this, [this]() { openWidget(new GameRegistrationWindow(nullptr, this)); });
     connect(ui->navigateToManageGames, &QAction::triggered, this, [this]() { openWidget(new GameManagementWindow(this)); });
-
 }
 
 MainWindow::~MainWindow() {
@@ -24,4 +24,8 @@ void MainWindow::openWidget(QWidget* widget) {
         currentWidget = widget;
         setCentralWidget(currentWidget);
     }
+}
+
+void MainWindow::openGameRegistrationWindow(GameImpl* game) {
+    openWidget(new GameRegistrationWindow(game, this));
 }

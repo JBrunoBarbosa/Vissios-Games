@@ -2,6 +2,7 @@
 #define GAMEMANAGEMENTWINDOW_H
 
 #include <QWidget>
+#include <QTableWidgetItem>
 #include "gamemanagerimpl.h"
 
 namespace Ui {
@@ -16,14 +17,17 @@ public:
     explicit GameManagementWindow(QWidget *parent = nullptr);
     ~GameManagementWindow();
 
+signals:
+    void openGameRegistrationWindowRequested(GameImpl* game);
+
 private slots:
     void onButtonRemoveGameClicked();
     void onButtonModifyGameClicked();
-    // Você pode adicionar slots para carregar jogos, etc.
 
 private:
     Ui::GameManagementWindow *ui;
-    GameManagerImpl gameManager; // Assumindo que você tem uma instância de GameManager
+    GameManagerImpl gameManager;
+    GameImpl* createGameFromRow(int row);    // Sua instância do gerenciador de jogos
     void loadGames(); // Método para carregar jogos na tabela
 };
 

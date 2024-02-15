@@ -2,6 +2,8 @@
 #define GAMEREGISTRATIONWINDOW_H
 
 #include <QWidget>
+#include "gameimpl.h"
+#include "gamemanagerimpl.h"
 
 namespace Ui {
 class GameRegistrationWindow;
@@ -12,7 +14,7 @@ class GameRegistrationWindow : public QWidget
     Q_OBJECT
 
 public:
-    explicit GameRegistrationWindow(QWidget *parent = nullptr);
+    explicit GameRegistrationWindow(GameImpl* gameToEdit, QWidget *parent);
     ~GameRegistrationWindow();
 
 private slots:
@@ -20,6 +22,9 @@ private slots:
 
 private:
     Ui::GameRegistrationWindow *ui;
+    GameImpl* currentGame = nullptr;
+    GameManagerImpl gameManager;
+    void setupFieldsFromGame(GameImpl* game);
 };
 
 #endif
