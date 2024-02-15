@@ -7,12 +7,16 @@ namespace Ui {
 class GameRegistrationWindow;
 }
 
-class GameRegistrationWindow : public QWidget {
+class GameRegistrationWindow : public QWidget
+{
     Q_OBJECT
 
 public:
     explicit GameRegistrationWindow(QWidget *parent = nullptr);
     ~GameRegistrationWindow();
+
+private slots:
+    void onSaveButtonClicked();
 
 private:
     Ui::GameRegistrationWindow *ui;

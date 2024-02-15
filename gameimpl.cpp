@@ -1,7 +1,8 @@
 #include "GameImpl.h"
+#include <QVariantMap>
 
-GameImpl::GameImpl(int id, std::string name, int playerAmount, std::string genre, int minAge, int totalAmount, int currentAmount)
-    : id(id), name(name), playerAmount(playerAmount), genre(genre), minAge(minAge), totalAmount(totalAmount), currentAmount(currentAmount)
+GameImpl::GameImpl(int id, std::string name, int playerAmount, std::string genre, int minAge, std::string supplier)
+    : id(id), name(name), playerAmount(playerAmount), genre(genre), minAge(minAge), supplier(supplier)
 {
 }
 
@@ -25,12 +26,8 @@ int GameImpl::getMinAge() const {
     return minAge;
 }
 
-int GameImpl::getTotalAmount() const {
-    return totalAmount;
-}
-
-int GameImpl::getCurrentAmount() const {
-    return currentAmount;
+std::string GameImpl::getSupplier() const {
+    return supplier;
 }
 
 void GameImpl::setId(int newId) {
@@ -53,10 +50,6 @@ void GameImpl::setMinAge(int newMinAge) {
     minAge = newMinAge;
 }
 
-void GameImpl::setTotalAmount(int newTotalAmount) {
-    totalAmount = newTotalAmount;
-}
-
-void GameImpl::setCurrentAmount(int newCurrentAmount) {
-    currentAmount = newCurrentAmount;
+void GameImpl::setSupplier(const std::string& newSupplier) {
+    supplier = newSupplier;
 }

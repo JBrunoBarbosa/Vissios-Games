@@ -42,17 +42,10 @@ public:
     virtual int getMinAge() const = 0;
 
     /**
-     * @brief Get the Total Amount of copies of the game
-     * @return int The total amount of copies of the game available.
+     * @brief Get the name of supplier the game available
+     * @return std::string The name of the supplier.
      */
-    virtual int getTotalAmount() const = 0;
-
-    /**
-     * @brief Get the Current Amount of copies of the game available
-     * @return int The current amount of copies available for rent/purchase.
-     */
-    virtual int getCurrentAmount() const = 0;
-
+    virtual std::string getSupplier() const = 0;
 
     /**
      * @brief Set the Game ID
@@ -85,16 +78,10 @@ public:
     virtual void setMinAge(int newMinAge) = 0;
 
     /**
-     * @brief Set the Total Amount of copies of the game
-     * @param newTotalAmount The new total amount of copies of the game available.
+     * @brief Set the supplier name of the game available
+     * @param supplier The new name of supplier.
      */
-    virtual void setTotalAmount(int newTotalAmount) = 0;
-
-    /**
-     * @brief Set the Current Amount of copies of the game available
-     * @param newCurrentAmount The new current amount of copies available for rent/purchase.
-     */
-    virtual void setCurrentAmount(int newCurrentAmount) = 0;
+    virtual void setSupplier(const std::string& supplier) = 0;
 };
 
 #endif

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>GameRegistrationWindow</class>
- <widget class="QWidget" name="GameRegistrationWindow">
+ <class>GameManagementWindow</class>
+ <widget class="QWidget" name="GameManagementWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -154,7 +154,7 @@
          <number>15</number>
         </property>
         <item row="2" column="1">
-         <widget class="QLineEdit" name="editTheme">
+         <widget class="QLineEdit" name="editEmail">
           <property name="placeholderText">
            <string>Tema</string>
           </property>
@@ -190,28 +190,28 @@
          </spacer>
         </item>
         <item row="0" column="3">
-         <widget class="QLineEdit" name="editSupplier">
+         <widget class="QLineEdit" name="editCpf_4">
           <property name="placeholderText">
            <string>Fornecedor</string>
           </property>
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="editAge">
+         <widget class="QLineEdit" name="editCpf">
           <property name="placeholderText">
            <string>Idade Recomendada</string>
           </property>
          </widget>
         </item>
         <item row="1" column="3">
-         <widget class="QLineEdit" name="editPlayersQuantity">
+         <widget class="QLineEdit" name="editCpf_3">
           <property name="placeholderText">
            <string>Quantidade Jogadores</string>
           </property>
          </widget>
         </item>
         <item row="2" column="3">
-         <widget class="QLineEdit" name="editIdGame">
+         <widget class="QLineEdit" name="editCpf_2">
           <property name="placeholderText">
            <string>Id Jogo</string>
           </property>
@@ -280,7 +280,7 @@
          </spacer>
         </item>
         <item>
-         <widget class="QPushButton" name="saveButton">
+         <widget class="QPushButton" name="buttonSubmit">
           <property name="text">
            <string>Cadastrar </string>
           </property>

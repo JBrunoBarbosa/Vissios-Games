@@ -11,12 +11,11 @@ private:
     int playerAmount;
     std::string genre;
     int minAge;
-    int totalAmount;
-    int currentAmount;
+    std::string supplier;
 
 public:
     // Constructor
-    GameImpl(int id, std::string name, int playerAmount, std::string genre, int minAge, int totalAmount, int currentAmount);
+    GameImpl(int id, std::string name, int playerAmount, std::string genre, int minAge, std::string supplier);
 
     // Getters
     int getId() const override;
@@ -24,8 +23,7 @@ public:
     int getPlayerAmount() const override;
     std::string getGenre() const override;
     int getMinAge() const override;
-    int getTotalAmount() const override;
-    int getCurrentAmount() const override;
+    std::string getSupplier() const override;
 
     // Setters
     void setId(int newId) override;
@@ -33,8 +31,7 @@ public:
     void setPlayerAmount(int newPlayerAmount) override;
     void setGenre(const std::string& newGenre) override;
     void setMinAge(int newMinAge) override;
-    void setTotalAmount(int newTotalAmount) override;
-    void setCurrentAmount(int newCurrentAmount) override;
+    void setSupplier(const std::string& supplier) override;
 };
 
 #endif
