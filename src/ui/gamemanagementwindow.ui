@@ -66,7 +66,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../../logo.qrc">:/res/assets/logo.png</pixmap>
+      <pixmap>:/res/assets/logo.png</pixmap>
      </property>
     </widget>
    </item>
@@ -131,8 +131,6 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="../../logo.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
