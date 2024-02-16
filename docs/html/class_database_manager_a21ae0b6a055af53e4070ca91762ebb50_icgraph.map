@@ -1,0 +1,23 @@
+<map id="DatabaseManager::executeQuery" name="DatabaseManager::executeQuery">
+<area shape="rect" id="Node000001" title="Executa uma consulta SQL no banco de dados." alt="" coords="563,211,743,253"/>
+<area shape="rect" id="Node000002" href="$class_database_manager.html#ad173d593e6bb359b8ef6e9bf6a81f538" title="Cria uma tabela no banco de dados." alt="" coords="307,72,509,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="619,202,571,160,514,121,466,102,468,97,516,116,574,156,622,198"/>
+<area shape="rect" id="Node000005" href="$class_database_manager.html#a9e841e02178ad5f89cbeff8d45f016c9" title="Insere um registro em uma tabela." alt="" coords="304,131,512,157"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="595,206,514,172,476,161,477,155,516,167,597,201"/>
+<area shape="rect" id="Node000008" href="$class_employee_manager_impl.html#a95d79d41105633b9d59a2f642ce492c5" title="Modifica os dados de um funcionário existente no banco de dados." alt="" coords="331,181,485,224"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="547,222,485,214,485,209,548,217"/>
+<area shape="rect" id="Node000009" href="$class_game_manager_impl.html#a14400c0a8e2299257fc5f49bee49903b" title="Modifica os dados de um jogo existente no banco de dados." alt="" coords="302,248,514,275"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="548,247,514,251,514,246,547,242"/>
+<area shape="rect" id="Node000010" href="$class_employee_manager_impl.html#ae3ce3c252c5140340c890254ae3f1e53" title="Remove um funcionário do banco de dados pelo seu ID." alt="" coords="331,299,485,341"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="586,262,516,289,482,301,480,296,514,284,584,257"/>
+<area shape="rect" id="Node000011" href="$class_game_manager_impl.html#ad3085aa44754d3b735058f4effdb0412" title="Remove um jogo do banco de dados pelo seu ID." alt="" coords="301,365,515,392"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="625,267,577,313,548,336,516,356,488,367,486,362,514,351,545,332,574,309,621,263"/>
+<area shape="rect" id="Node000003" href="$class_employee_manager_impl.html#a6aa2817fed3881f3c2462d7d81e2c0cb" title=" " alt="" coords="48,5,210,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,71,209,46,210,41,327,66"/>
+<area shape="rect" id="Node000004" href="$class_game_manager_impl.html#a6a74a9747f2a3e23c6f0ff3a23228aa1" title=" " alt="" coords="5,72,253,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="291,88,253,88,253,83,291,83"/>
+<area shape="rect" id="Node000006" href="$class_employee_manager_impl.html#a24047cef158ce53f2d0fe98b69c2b826" title="Salva um funcionário no banco de dados." alt="" coords="52,123,206,165"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="288,147,206,147,206,141,288,141"/>
+<area shape="rect" id="Node000007" href="$class_game_manager_impl.html#a471b03785cc0d0361a443e43781bf55c" title="Salva um jogo no banco de dados." alt="" coords="29,189,229,216"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="328,164,253,180,199,191,198,186,252,175,327,159"/>
+</map>

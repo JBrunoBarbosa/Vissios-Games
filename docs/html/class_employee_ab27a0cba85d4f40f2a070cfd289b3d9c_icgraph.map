@@ -1,0 +1,7 @@
+<map id="Employee::getEmail" name="Employee::getEmail">
+<area shape="rect" id="Node000001" title="Get the Email of the employee." alt="" coords="207,47,345,73"/>
+<area shape="rect" id="Node000002" href="$class_employee_manager_impl.html#a95d79d41105633b9d59a2f642ce492c5" title="Modifica os dados de um funcionário existente no banco de dados." alt="" coords="5,5,159,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,48,159,43,160,37,192,43"/>
+<area shape="rect" id="Node000003" href="$class_employee_manager_impl.html#a24047cef158ce53f2d0fe98b69c2b826" title="Salva um funcionário no banco de dados." alt="" coords="5,72,159,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,77,160,83,159,77,191,72"/>
+</map>

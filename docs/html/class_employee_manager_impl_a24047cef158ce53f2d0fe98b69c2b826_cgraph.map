@@ -1,0 +1,17 @@
+<map id="EmployeeManagerImpl::saveEmployee" name="EmployeeManagerImpl::saveEmployee">
+<area shape="rect" id="Node000001" title="Salva um funcionário no banco de dados." alt="" coords="5,124,159,167"/>
+<area shape="rect" id="Node000002" href="$class_employee.html#aca88f21b5d94db5b24bb2ecc33156301" title="Get the CPF of the employee." alt="" coords="245,5,376,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,121,147,81,175,60,205,42,229,32,231,37,208,46,178,64,150,85,106,125"/>
+<area shape="rect" id="Node000003" href="$class_employee.html#ab27a0cba85d4f40f2a070cfd289b3d9c" title="Get the Email of the employee." alt="" coords="241,56,380,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,121,206,92,231,85,233,90,208,97,133,126"/>
+<area shape="rect" id="Node000004" href="$class_employee.html#a7cc0ba82e3ffff2f08e8ccf41e2bf824" title="Get the Employee ID." alt="" coords="224,107,397,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,134,208,129,209,134,159,139"/>
+<area shape="rect" id="Node000005" href="$class_employee.html#aa5f6ec007db42bfd1202b016f26d469a" title="Get the Full Name of the employee." alt="" coords="230,157,391,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="159,151,215,157,215,163,159,156"/>
+<area shape="rect" id="Node000006" href="$class_employee.html#ae56f385422e6a39a5cf6e207f53f2683" title="Get the Password of the employee." alt="" coords="229,208,392,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="133,165,208,193,233,201,231,206,206,199,131,170"/>
+<area shape="rect" id="Node000007" href="$class_database_manager.html#a9e841e02178ad5f89cbeff8d45f016c9" title="Insere um registro em uma tabela." alt="" coords="207,259,414,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="106,165,150,206,178,227,208,244,222,251,220,255,205,249,175,231,147,210,102,169"/>
+<area shape="rect" id="Node000008" href="$class_database_manager.html#a21ae0b6a055af53e4070ca91762ebb50" title="Executa uma consulta SQL no banco de dados." alt="" coords="462,251,642,293"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="414,269,446,269,446,275,414,275"/>
+</map>

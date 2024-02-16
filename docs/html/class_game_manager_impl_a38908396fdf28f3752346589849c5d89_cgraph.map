@@ -1,0 +1,5 @@
+<map id="GameManagerImpl::listGames" name="GameManagerImpl::listGames">
+<area shape="rect" id="Node000001" title="Lista todos os jogos do banco de dados." alt="" coords="5,13,203,40"/>
+<area shape="rect" id="Node000002" href="$class_database_manager.html#ad2d3c3556728265d2976dc6a28aa7a3c" title="Seleciona todos os registros de uma tabela." alt="" coords="251,5,435,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,24,235,24,235,29,203,29"/>
+</map>

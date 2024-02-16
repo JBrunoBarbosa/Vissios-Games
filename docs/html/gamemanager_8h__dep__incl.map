@@ -1,0 +1,21 @@
+<map id="C:/Users/Bruno Barbosa/Documents/Vissios&#45;Games/src/headers/gamemanager.h" name="C:/Users/Bruno Barbosa/Documents/Vissios&#45;Games/src/headers/gamemanager.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="589,5,779,64"/>
+<area shape="rect" id="Node000002" href="$gamemanagerimpl_8h.html" title=" " alt="" coords="461,112,675,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="643,76,601,114,598,110,639,72"/>
+<area shape="rect" id="Node000009" href="$gamemanager_8cpp.html" title=" " alt="" coords="699,112,903,171"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="729,72,771,110,767,114,725,76"/>
+<area shape="rect" id="Node000003" href="$gamemanagementwindow_8h.html" title=" " alt="" coords="83,219,340,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,178,310,221,308,216,455,173"/>
+<area shape="rect" id="Node000006" href="$gameregistrationwindow_8h.html" title=" " alt="" coords="365,219,611,277"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="539,185,512,220,507,217,535,181"/>
+<area shape="rect" id="Node000007" href="$gameregistrationwindow_8cpp.html" title=" " alt="" coords="518,325,778,384"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="604,182,625,218,641,274,649,325,643,325,636,275,620,220,600,185"/>
+<area shape="rect" id="Node000008" href="$gamemanagerimpl_8cpp.html" title=" " alt="" coords="686,219,914,277"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="646,175,737,216,735,221,644,180"/>
+<area shape="rect" id="Node000004" href="$gamemanagementwindow_8cpp.html" title=" " alt="" coords="5,325,277,384"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,292,162,326,158,323,182,289"/>
+<area shape="rect" id="Node000005" href="$mainwindow_8cpp.html" title=" " alt="" coords="301,325,493,384"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="277,283,348,323,345,327,274,288"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="455,291,424,327,420,323,451,288"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="545,284,605,323,603,327,543,288"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="QObject" name="QObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="191,5,252,75"/>
+<area shape="rect" id="Node000002" href="$class_database_manager.html" title="A classe DatabaseManager é responsável por gerenciar operações de banco de dados." alt="" coords="5,123,149,341"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,88,151,138,147,135,185,85"/>
+<area shape="rect" id="Node000003" href="$class_test_employee.html" title=" " alt="" coords="173,197,269,267"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,89,224,197,219,197,219,89"/>
+<area shape="rect" id="Node000004" href="$class_test_game.html" title=" " alt="" coords="294,197,367,267"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,85,284,121,320,196,315,199,279,124,255,88"/>
+</map>

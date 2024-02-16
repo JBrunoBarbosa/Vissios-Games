@@ -1,0 +1,31 @@
+<map id="C:/Users/Bruno Barbosa/Documents/Vissios&#45;Games/src/headers/gamemanagementwindow.h" name="C:/Users/Bruno Barbosa/Documents/Vissios&#45;Games/src/headers/gamemanagementwindow.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="37,5,294,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,78,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,67,73,105,70,100,124,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="101,112,230,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,64,168,96,163,96,163,64"/>
+<area shape="rect" id="Node000004" href="$gamemanagerimpl_8h.html" title=" " alt="" coords="254,112,392,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="218,62,288,102,286,106,215,67"/>
+<area shape="rect" id="Node000005" href="$game_8h.html" title=" " alt="" coords="163,336,227,363"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="276,142,239,160,222,172,209,188,195,220,189,256,189,290,192,320,187,321,183,291,183,255,190,219,205,185,219,169,236,155,274,137"/>
+<area shape="rect" id="Node000007" href="$gamemanager_8h.html" title=" " alt="" coords="219,187,333,213"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="317,141,295,175,290,172,312,138"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="344,261,414,288"/>
+<area shape="poly" id="edge16_Node000004_Node000009" title=" " alt="" coords="330,138,371,246,366,248,325,140"/>
+<area shape="rect" id="Node000010" href="$databasemanager_8h.html" title=" " alt="" coords="409,187,544,213"/>
+<area shape="poly" id="edge11_Node000004_Node000010" title=" " alt="" coords="351,137,437,177,434,182,348,142"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="168,411,222,437"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="198,363,198,395,192,395,192,363"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="263,216,242,236,222,263,210,292,202,321,197,320,205,290,218,260,238,233,259,212"/>
+<area shape="rect" id="Node000008" href="$gameimpl_8h.html" title=" " alt="" coords="232,261,320,288"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="279,214,279,246,274,246,274,214"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="296,212,350,250,347,254,293,216"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="264,291,222,328,218,324,260,287"/>
+<area shape="poly" id="edge15_Node000010_Node000009" title=" " alt="" coords="461,216,409,254,406,250,458,212"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="438,261,507,288"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="478,214,476,246,471,246,473,214"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="532,261,637,288"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="496,212,554,250,551,254,493,216"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="661,261,758,288"/>
+<area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="518,211,655,254,654,259,516,216"/>
+</map>

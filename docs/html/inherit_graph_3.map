@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_game_manager.html" title="Interface abstrata para gerenciamento de operações relacionadas a jogos." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="Node000001" href="$class_game_manager_impl.html" title=" " alt="" coords="160,5,290,32"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="127,16,159,16,159,21,127,21"/>
+</map>

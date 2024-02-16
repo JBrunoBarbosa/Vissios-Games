@@ -1,0 +1,5 @@
+<map id="EmployeeManagementWindow" name="EmployeeManagementWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,224,213"/>
+<area shape="rect" id="Node000002" href="$class_q_widget.html" title=" " alt="" coords="83,5,147,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,89,117,123,112,123,112,89"/>
+</map>

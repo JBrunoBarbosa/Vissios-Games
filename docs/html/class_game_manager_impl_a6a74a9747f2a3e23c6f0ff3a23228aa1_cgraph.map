@@ -1,0 +1,7 @@
+<map id="GameManagerImpl::GameManagerImpl" name="GameManagerImpl::GameManagerImpl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,253,40"/>
+<area shape="rect" id="Node000002" href="$class_database_manager.html#ad173d593e6bb359b8ef6e9bf6a81f538" title="Cria uma tabela no banco de dados." alt="" coords="301,13,502,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,24,285,24,285,29,253,29"/>
+<area shape="rect" id="Node000003" href="$class_database_manager.html#a21ae0b6a055af53e4070ca91762ebb50" title="Executa uma consulta SQL no banco de dados." alt="" coords="550,5,730,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="502,24,534,24,534,29,502,29"/>
+</map>

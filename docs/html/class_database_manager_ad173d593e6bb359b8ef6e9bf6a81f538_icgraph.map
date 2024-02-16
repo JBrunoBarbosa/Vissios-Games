@@ -1,0 +1,7 @@
+<map id="DatabaseManager::createTable" name="DatabaseManager::createTable">
+<area shape="rect" id="Node000001" title="Cria uma tabela no banco de dados." alt="" coords="301,43,502,69"/>
+<area shape="rect" id="Node000002" href="$class_employee_manager_impl.html#a6aa2817fed3881f3c2462d7d81e2c0cb" title=" " alt="" coords="48,5,210,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,46,210,38,211,33,285,41"/>
+<area shape="rect" id="Node000003" href="$class_game_manager_impl.html#a6a74a9747f2a3e23c6f0ff3a23228aa1" title=" " alt="" coords="5,72,253,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,71,253,75,253,69,285,66"/>
+</map>
