@@ -1,4 +1,4 @@
-#include "../headers/GameImpl.h"
+#include "../headers/gameimpl.h"
 #include <QVariantMap>
 
 GameImpl::GameImpl(int id, std::string name, int playerAmount, std::string genre, int minAge, std::string supplier)

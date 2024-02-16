@@ -1,7 +1,7 @@
 #ifndef GAMEIMPL_H
 #define GAMEIMPL_H
 
-#include "Game.h"
+#include "game.h"
 
 class GameImpl : public Game
 {
