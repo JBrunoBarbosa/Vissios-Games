@@ -1,6 +1,6 @@
-#include "mainwindow.h"
-#include "gameregistrationwindow.h"
-#include "gamemanagementwindow.h"
+#include "../headers/mainwindow.h"
+#include "../headers/gameregistrationwindow.h"
+#include "../headers/gamemanagementwindow.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)

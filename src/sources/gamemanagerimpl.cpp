@@ -1,6 +1,6 @@
-#include "gamemanagerimpl.h"
-#include "gameimpl.h"
-#include "game.h"
+#include "../headers/gamemanagerimpl.h"
+#include "../headers/gameimpl.h"
+#include "../headers/game.h"
 
 GameManagerImpl::GameManagerImpl() : dbManager("vissios_games.sqlite") {
     QString productTableQuery = "id INTEGER PRIMARY KEY, name TEXT, playersQuantity INTEGER, genre TEXT, minAge INTEGER, supplier TEXT";

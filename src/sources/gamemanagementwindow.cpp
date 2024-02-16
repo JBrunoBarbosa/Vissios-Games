@@ -1,5 +1,5 @@
-#include "GameManagementWindow.h"
-#include "mainwindow.h"
+#include "../headers/GameManagementWindow.h"
+#include "../headers/mainwindow.h"
 #include "ui_GameManagementWindow.h"
 #include <QMessageBox>
 

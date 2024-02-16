@@ -1,7 +1,7 @@
-#include "gameregistrationwindow.h"
+#include "../headers/gameregistrationwindow.h"
 #include "ui_gameregistrationwindow.h"
-#include "gamemanagerimpl.h"
-#include "gameimpl.h"
+#include "../headers/gamemanagerimpl.h"
+#include "../headers/gameimpl.h"
 #include <QMessageBox>
 #include <QDebug>
 

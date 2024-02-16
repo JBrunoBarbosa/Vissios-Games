@@ -9,28 +9,28 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    databasemanager.cpp \
-    gameimpl.cpp \
-    gamemanagementwindow.cpp \
-    gamemanagerimpl.cpp \
-    gameregistrationwindow.cpp \
-    main.cpp \
-    mainwindow.cpp
+    src/sources/databasemanager.cpp \
+    src/sources/gameimpl.cpp \
+    src/sources/gamemanagementwindow.cpp \
+    src/sources/gamemanagerimpl.cpp \
+    src/sources/gameregistrationwindow.cpp \
+    src/sources/main.cpp \
+    src/sources/mainwindow.cpp
 
 HEADERS += \
-    databasemanager.h \
-    game.h \
-    gameimpl.h \
-    gamemanagementwindow.h \
-    gamemanager.h \
-    gamemanagerimpl.h \
-    gameregistrationwindow.h \
-    mainwindow.h
+    src/headers/databasemanager.h \
+    src/headers/game.h \
+    src/headers/gameimpl.h \
+    src/headers/gamemanagementwindow.h \
+    src/headers/gamemanager.h \
+    src/headers/gamemanagerimpl.h \
+    src/headers/gameregistrationwindow.h \
+    src/headers/mainwindow.h
 
 FORMS += \
-    gamemanagementwindow.ui \
-    gameregistrationwindow.ui \
-    mainwindow.ui
+    src/ui/gamemanagementwindow.ui \
+    src/ui/gameregistrationwindow.ui \
+    src/ui/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -38,4 +38,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    logo.qrc
+    logo.qrc \
+    src/ui/logo.qrc \
+    src/ui/logo.qrc
