@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "gameimpl.h"
+#include "employeeimpl.h"
 
 namespace Ui {
     class MainWindow;
@@ -28,6 +29,8 @@ public:
 
 public slots:
     void openGameRegistrationWindow(GameImpl* game);
+
+    void openEmployeeRegistrationWindow(EmployeeImpl* employee);
 
     /**
      * @brief Abre um widget na janela principal.
