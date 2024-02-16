@@ -1,6 +1,6 @@
-#include "../headers/GameManagementWindow.h"
+#include "../headers/gamemanagementwindow.h"
 #include "../headers/mainwindow.h"
-#include "ui_GameManagementWindow.h"
+#include "ui_gamemanagementwindow.h"
 #include <QMessageBox>
 
 GameManagementWindow::GameManagementWindow(QWidget *parent) :
