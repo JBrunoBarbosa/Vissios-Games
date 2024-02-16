@@ -1,0 +1,29 @@
+name: CI
+
+on: [pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Qt Creator and build essentials
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install qtcreator build-essential qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5sql5
+
+    - name: Build project
+      run: |
+        qmake Vissios-Games.pro
+        make
+
+    - name: Run unit tests
+      run: |
+        # Comandos para executar seus testes de unidade
+
+    - name: Run functional tests
+      run: |
+        # Comandos para executar seus testes de unidade
