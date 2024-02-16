@@ -22,7 +22,8 @@ jobs:
 
     - name: Run unit tests
       run: |
-        # Comandos para executar seus testes de unidade
+        qmake "CONFIG+=tests"
+	make clean && make
 
     - name: Run functional tests
       run: |
