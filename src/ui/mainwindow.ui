@@ -38,8 +38,16 @@
     <addaction name="navigateToGames"/>
     <addaction name="navigateToManageGames"/>
    </widget>
+   <widget class="QMenu" name="menuFuncionario">
+    <property name="title">
+     <string>Funcionario</string>
+    </property>
+    <addaction name="navigateToEmployee"/>
+    <addaction name="navigateToManageEmployee"/>
+   </widget>
    <addaction name="menuHome"/>
    <addaction name="menuGames"/>
+   <addaction name="menuFuncionario"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="navigateToGames">
@@ -50,6 +58,16 @@
   <action name="navigateToManageGames">
    <property name="text">
     <string>Gerenciar Jogos</string>
+   </property>
+  </action>
+  <action name="navigateToEmployee">
+   <property name="text">
+    <string>Adicionar Funcionario</string>
+   </property>
+  </action>
+  <action name="navigateToManageEmployee">
+   <property name="text">
+    <string>Gerenciar Funcionário</string>
    </property>
   </action>
  </widget>

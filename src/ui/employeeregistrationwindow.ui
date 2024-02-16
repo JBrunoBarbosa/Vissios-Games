@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>GameRegistrationWindow</class>
- <widget class="QWidget" name="GameRegistrationWindow">
+ <class>EmployeeRegistrationWindow</class>
+ <widget class="QWidget" name="EmployeeRegistrationWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -128,7 +128,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Cadastro de Jogo</string>
+         <string>Cadastro de Funcionário</string>
         </property>
        </widget>
       </item>
@@ -154,9 +154,12 @@
          <number>15</number>
         </property>
         <item row="2" column="1">
-         <widget class="QLineEdit" name="editTheme">
+         <widget class="QLineEdit" name="editPass">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
           <property name="placeholderText">
-           <string>Tema</string>
+           <string>Crie uma senha</string>
           </property>
          </widget>
         </item>
@@ -190,30 +193,33 @@
          </spacer>
         </item>
         <item row="0" column="3">
-         <widget class="QLineEdit" name="editSupplier">
+         <widget class="QLineEdit" name="editEmail">
           <property name="placeholderText">
-           <string>Fornecedor</string>
+           <string>E-mail</string>
           </property>
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="editAge">
+         <widget class="QLineEdit" name="editCpf">
           <property name="placeholderText">
-           <string>Idade Recomendada</string>
+           <string>CPF</string>
           </property>
          </widget>
         </item>
         <item row="1" column="3">
-         <widget class="QLineEdit" name="editPlayersQuantity">
+         <widget class="QLineEdit" name="editId">
           <property name="placeholderText">
-           <string>Quantidade Jogadores</string>
+           <string>ID do Funcionário</string>
           </property>
          </widget>
         </item>
         <item row="2" column="3">
-         <widget class="QLineEdit" name="editIdGame">
+         <widget class="QLineEdit" name="editConfirmPass">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
           <property name="placeholderText">
-           <string>Id Jogo</string>
+           <string>Confirme a senha</string>
           </property>
          </widget>
         </item>
@@ -226,7 +232,7 @@
            <string/>
           </property>
           <property name="placeholderText">
-           <string>Nome do Jogo</string>
+           <string>Nome completo</string>
           </property>
          </widget>
         </item>

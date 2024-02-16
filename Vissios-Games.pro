@@ -10,6 +10,10 @@ CONFIG += c++17
 
 SOURCES += \
     src/sources/databasemanager.cpp \
+    src/sources/employeeimpl.cpp \
+    src/sources/employeemanagementwindow.cpp \
+    src/sources/employeemanagerimpl.cpp \
+    src/sources/employeeregistrationwindow.cpp \
     src/sources/gameimpl.cpp \
     src/sources/gamemanagementwindow.cpp \
     src/sources/gamemanagerimpl.cpp \
@@ -19,6 +23,12 @@ SOURCES += \
 
 HEADERS += \
     src/headers/databasemanager.h \
+    src/headers/employee.h \
+    src/headers/employeeimpl.h \
+    src/headers/employeemanagementwindow.h \
+    src/headers/employeemanager.h \
+    src/headers/employeemanagerimpl.h \
+    src/headers/employeeregistrationwindow.h \
     src/headers/game.h \
     src/headers/gameimpl.h \
     src/headers/gamemanagementwindow.h \
@@ -28,6 +38,8 @@ HEADERS += \
     src/headers/mainwindow.h
 
 FORMS += \
+    src/ui/employeemanagementwindow.ui \
+    src/ui/employeeregistrationwindow.ui \
     src/ui/gamemanagementwindow.ui \
     src/ui/gameregistrationwindow.ui \
     src/ui/mainwindow.ui
@@ -38,3 +50,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
+    assets/logo.qrc
