@@ -3,7 +3,7 @@
 
 #include <QWidget>
 #include "employeeimpl.h"
-#include "employeeManagerImpl.h"
+#include "employeemanagerimpl.h"
 
 namespace Ui {
 class EmployeeRegistrationWindow;
