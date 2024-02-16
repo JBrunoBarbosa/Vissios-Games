@@ -1,0 +1,7 @@
+<map id="EmployeeManagerImpl::EmployeeManagerImpl" name="EmployeeManagerImpl::EmployeeManagerImpl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,167,48"/>
+<area shape="rect" id="Node000002" href="$class_database_manager.html#ad173d593e6bb359b8ef6e9bf6a81f538" title="Cria uma tabela no banco de dados." alt="" coords="215,13,416,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,24,199,24,199,29,167,29"/>
+<area shape="rect" id="Node000003" href="$class_database_manager.html#a21ae0b6a055af53e4070ca91762ebb50" title="Executa uma consulta SQL no banco de dados." alt="" coords="464,5,644,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,24,448,24,448,29,416,29"/>
+</map>

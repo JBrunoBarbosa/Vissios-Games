@@ -1,0 +1,5 @@
+<map id="GameManager" name="GameManager">
+<area shape="rect" id="Node000001" title="Interface abstrata para gerenciamento de operações relacionadas a jogos." alt="" coords="13,5,137,160"/>
+<area shape="rect" id="Node000002" href="$class_game_manager_impl.html" title=" " alt="" coords="5,208,145,363"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,175,78,208,73,208,73,175"/>
+</map>

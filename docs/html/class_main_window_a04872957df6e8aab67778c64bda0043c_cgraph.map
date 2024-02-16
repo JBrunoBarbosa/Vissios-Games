@@ -1,0 +1,5 @@
+<map id="MainWindow::openEmployeeRegistrationWindow" name="MainWindow::openEmployeeRegistrationWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,195,48"/>
+<area shape="rect" id="Node000002" href="$class_main_window.html#ace904f60b31dbdfb479dcae080db903b" title="Abre um widget na janela principal." alt="" coords="243,13,415,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,24,227,24,227,29,195,29"/>
+</map>

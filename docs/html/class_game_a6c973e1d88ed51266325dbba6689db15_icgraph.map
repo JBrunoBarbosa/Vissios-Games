@@ -1,0 +1,7 @@
+<map id="Game::getMinAge" name="Game::getMinAge">
+<area shape="rect" id="Node000001" title="Get the Minimum Age required to play the game." alt="" coords="265,31,391,57"/>
+<area shape="rect" id="Node000002" href="$class_game_manager_impl.html#a14400c0a8e2299257fc5f49bee49903b" title="Modifica os dados de um jogo existente no banco de dados." alt="" coords="5,5,217,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,38,217,34,218,28,250,32"/>
+<area shape="rect" id="Node000003" href="$class_game_manager_impl.html#a471b03785cc0d0361a443e43781bf55c" title="Salva um jogo no banco de dados." alt="" coords="11,56,211,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,56,212,60,211,55,249,50"/>
+</map>

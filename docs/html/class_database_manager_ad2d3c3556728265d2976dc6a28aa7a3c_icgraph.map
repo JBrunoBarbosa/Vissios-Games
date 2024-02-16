@@ -1,0 +1,7 @@
+<map id="DatabaseManager::selectAllRecords" name="DatabaseManager::selectAllRecords">
+<area shape="rect" id="Node000001" title="Seleciona todos os registros de uma tabela." alt="" coords="251,35,435,77"/>
+<area shape="rect" id="Node000002" href="$class_employee_manager_impl.html#a4d585da51bf48742b596d3974f47a14e" title="Lista todos os funcionários do banco de dados." alt="" coords="27,5,181,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,45,181,39,181,33,235,40"/>
+<area shape="rect" id="Node000003" href="$class_game_manager_impl.html#a38908396fdf28f3752346589849c5d89" title="Lista todos os jogos do banco de dados." alt="" coords="5,72,203,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,72,203,76,203,71,235,67"/>
+</map>

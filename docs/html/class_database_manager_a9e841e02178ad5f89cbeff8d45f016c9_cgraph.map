@@ -1,0 +1,5 @@
+<map id="DatabaseManager::insertRecord" name="DatabaseManager::insertRecord">
+<area shape="rect" id="Node000001" title="Insere um registro em uma tabela." alt="" coords="5,13,213,40"/>
+<area shape="rect" id="Node000002" href="$class_database_manager.html#a21ae0b6a055af53e4070ca91762ebb50" title="Executa uma consulta SQL no banco de dados." alt="" coords="261,5,441,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,24,245,24,245,29,213,29"/>
+</map>

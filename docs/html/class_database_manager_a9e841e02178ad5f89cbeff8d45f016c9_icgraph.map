@@ -1,0 +1,7 @@
+<map id="DatabaseManager::insertRecord" name="DatabaseManager::insertRecord">
+<area shape="rect" id="Node000001" title="Insere um registro em uma tabela." alt="" coords="253,43,460,69"/>
+<area shape="rect" id="Node000002" href="$class_employee_manager_impl.html#a24047cef158ce53f2d0fe98b69c2b826" title="Salva um funcionário no banco de dados." alt="" coords="28,5,182,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,45,182,38,183,33,237,39"/>
+<area shape="rect" id="Node000003" href="$class_game_manager_impl.html#a471b03785cc0d0361a443e43781bf55c" title="Salva um jogo no banco de dados." alt="" coords="5,72,205,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,73,206,76,205,71,237,67"/>
+</map>

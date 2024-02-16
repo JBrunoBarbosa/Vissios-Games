@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 12.0.2, 2024-02-15T20:47:07. -->
+<!-- Written by QtCreator 12.0.1, 2024-02-16T00:49:20. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{b9f9f609-30f1-44bb-bbab-47b517601212}</value>
+  <value type="QByteArray">{b4847226-022e-46a2-8d57-c21c9fd53f14}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -69,7 +69,17 @@
     <value type="bool" key="AutoTest.Framework.QtQuickTest">true</value>
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
-   <valuemap type="QVariantMap" key="AutoTest.CheckStates"/>
+   <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testemployee.h:TestEmployee">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testemployee.h:cleanupTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testemployee.h:initTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testemployee.h:testSettersAndGetters">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testgame.h:TestGame">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testgame.h:cleanupTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testgame.h:initTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testgame.h:testConstructor">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/Bruno Barbosa/Documents/Vissios-Games/tests/unit/testgame.h:testSettersAndGetters">Unchecked</value>
+   </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
    <valuemap type="QVariantMap" key="ClangTools">
@@ -97,8 +107,8 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\Renato\Documents\GitHub\build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/Renato/Documents/GitHub/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\Bruno Barbosa\Documents\build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/Bruno Barbosa/Documents/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -136,8 +146,8 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\Renato\Documents\GitHub\build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/Renato/Documents/GitHub/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\Bruno Barbosa\Documents\build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/Bruno Barbosa/Documents/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -177,8 +187,8 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\Renato\Documents\GitHub\build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/Renato/Documents/GitHub/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\Bruno Barbosa\Documents\build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/Bruno Barbosa/Documents/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -241,13 +251,13 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Renato/Documents/GitHub/Vissios-Games/Vissios-Games.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Renato/Documents/GitHub/Vissios-Games/Vissios-Games.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Bruno Barbosa/Documents/Vissios-Games/Vissios-Games.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Bruno Barbosa/Documents/Vissios-Games/Vissios-Games.pro</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/Renato/Documents/GitHub/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/Bruno Barbosa/Documents/build-Vissios-Games-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
