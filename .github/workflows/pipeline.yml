@@ -23,7 +23,7 @@ jobs:
     - name: Run unit tests
       run: |
         qmake "CONFIG+=tests"
-	      make clean && make
+        make clean && make
 
     - name: Run functional tests
       run: |
